@@ -1,0 +1,113 @@
+{
+  "HomePage": {
+    "title": "Hello!",
+    "news": "News",
+    "videos": "Product Videos",
+    "gallery": "Gallery",
+    "best_sale": "BEST SALE",
+    "recent_products": "Recent Products"
+  },
+  "search": "Search...",
+  "search_result": "There are {pageCount} pages of search results for",
+  "menu": {
+    "home": "Home",
+    "intro": "Introduction",
+    "technology": "Technology",
+    "products": "Products",
+    "library": "Library",
+    "catalogue": "Catalogue",
+    "warranty": "Warranty",
+    "news": "News",
+    "sale": "Sales",
+    "manual": "Product Manual",
+    "projects": "Projects",
+    "origin_agency": "Authorized Dealer",
+    "recruit": "Careers",
+    "contact": "Contact",
+    "agency": "Dealers",
+    "open_letter": "Open Letter",
+    "agency_policy": "Dealer Policy",
+    "agent_registration": "Dealer Registration"
+  },
+  "products": {
+    "name": "Products",
+    "kitchen_sinks": "Kitchen Sinks",
+    "kitchen_faucets": "Kitchen Faucets",
+    "shower_heads": "Shower Heads",
+    "accessory": "Accessory",
+    "others": "Others",
+    "detail": "Detail",
+    "collection": "Collection",
+    "all": "All products",
+    "related": "Similar products",
+    "description": "Product description",
+    "specifications": "Specifications",
+    "identification": "Identification",
+    "reviews": "Reviews"
+  },
+  "posts": {
+    "name": "Posts",
+    "watch_more": "Watch More",
+    "related": "Related Posts",
+    "all": "All Posts",
+    "search": "Search for posts",
+    "newest": "Latest posts"
+  },
+  "footer": {
+    "info": {
+      "company": "DEMO WEBSITE VIETNAM TRADING COMPANY LIMITED",
+      "contact_info": "CONTACT INFORMATION"
+    },
+    "news": {
+      "name": "News",
+      "recruitment": "Recruitment",
+      "product_manual": "Product Manual",
+      "sharing": "Sharing",
+      "promotion": "Promotion"
+    },
+    "support": {
+      "name": "SUPPORT",
+      "warranty": "Warranty",
+      "faq": "FAQ",
+      "library": "Library"
+    },
+    "contact": "REGISTER FOR CONSULTATION"
+  },
+  "contact_form": {
+    "name": "Full Name",
+    "address": "Address",
+    "phone": "Phone Number",
+    "content": "Enter Content",
+    "submit": "Submit",
+    "success_message": "Registration Successful"
+  },
+  "reviews": {
+    "add_review": "Add review",
+    "name": "Name",
+    "rating": "Rating",
+    "review": "Review",
+    "email": "Email",
+    "submit": "Submit now",
+    "success_message": "Review submitted successfully",
+    "no_review_yet": "There are no reviews for this product yet"
+  },
+  "not_found": {
+    "title": "Something's Missing",
+    "message": "Sorry, we couldn't find this page.",
+    "back": "Back to Homepage"
+  },
+  "pagination": {
+    "page": "Page",
+    "previous": "Previous",
+    "next": "Next",
+    "no_data": "No Data"
+  },
+  "news": {
+    "heading": "News",
+    "promotion": "Promotion News",
+    "product_manual": "Product Manual",
+    "recruitment": "Recruitment",
+    "dealer": "Authorized Dealer",
+    "project": "Actual project"
+  }
+}

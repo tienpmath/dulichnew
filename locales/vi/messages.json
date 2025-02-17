@@ -1,0 +1,113 @@
+{
+  "HomePage": {
+    "title": "Xin chao!",
+    "news": "Tin tức",
+    "videos": "Video Sản phẩm",
+    "gallery": "Phòng Trưng Bày",
+    "best_sale": "BEST SALE",
+    "recent_products": "Sản phẩm gần đây"
+  },
+  "search": "Tìm kiếm...",
+  "search_result": "Có {pageCount} trang kết quả tìm kiếm cho",
+  "menu": {
+    "home": "Trang chủ",
+    "intro": "giới thiệu",
+    "technology": "công nghệ",
+    "products": "sản phẩm",
+    "library": "thư viện",
+    "catalogue": "catalogue",
+    "warranty": "bảo hành",
+    "news": "tin tức",
+    "sale": "Tin khuyến mãi",
+    "manual": "Cẩm nang sản phẩm",
+    "projects": "Công trình thực tế",
+    "origin_agency": "Đại lý chính hãng",
+    "recruit": "Tuyển dụng",
+    "contact": "liên hệ",
+    "agency": "đại lý",
+    "open_letter": "Thư ngỏ",
+    "agency_policy": "Chính sách đại lý",
+    "agent_registration": "Đăng ký đại lý"
+  },
+  "products": {
+    "name": "Sản phẩm",
+    "kitchen_sinks": "Quạt hút công nghiệp",
+    "kitchen_faucets": "Vòi bếp",
+    "shower_heads": "Sen vòi",
+    "accessory": "Phụ kiện",
+    "others": "Máy lọc nước",
+    "detail": "chi tiết",
+    "collection": "Bộ sưu tập",
+    "all": "Tất cả sản phẩm",
+    "related": "Sản phẩm tương tự",
+    "description": "Mô tả sản phẩm",
+    "specifications": "Thông số kỹ thuật",
+    "identification": "Thông tin nhận diện",
+    "reviews": "Đánh giá"
+  },
+  "posts": {
+    "name": "Bài viết",
+    "watch_more": "Xem thêm",
+    "related": "Bài viết liên quan",
+    "all": "Tất cả bài viết",
+    "search": "Tìm kiếm bài viết",
+    "newest": "Bài viết mới nhất"
+  },
+  "footer": {
+    "info": {
+      "company": "DEMO WEBSITE CÔNG TY TNHH THƯƠNG MẠI VIỆT NAM",
+      "contact_info": "THÔNG TIN LIÊN HỆ"
+    },
+    "news": {
+      "name": "Tin tức",
+      "recruitment": "Tuyển dụng",
+      "product_manual": "Cẩm nang sản phẩm",
+      "sharing": "Chia sẻ",
+      "promotion": "Tin khuyến mãi"
+    },
+    "support": {
+      "name": "HỖ TRỢ",
+      "warranty": "Bảo hành",
+      "faq": "FAQ",
+      "library": "Thư viện"
+    },
+    "contact": "ĐĂNG KÝ TƯ VẤN"
+  },
+  "contact_form": {
+    "name": "Họ tên",
+    "address": "Địa chỉ",
+    "phone": "Số điện thoại",
+    "content": "Nhập nội dung",
+    "submit": "Gửi ngay",
+    "success_message": "Đăng ký thành công"
+  },
+  "reviews": {
+    "add_review": "Thêm đánh giá",
+    "name": "Họ tên",
+    "rating": "Xếp hạng",
+    "review": "Đánh giá",
+    "email": "Email",
+    "submit": "Gửi ngay",
+    "success_message": "Gửi đánh giá thành công",
+    "no_review_yet": "Chưa có đánh giá nào cho sản phẩm này"
+  },
+  "not_found": {
+    "title": "Có gì đó còn thiếu",
+    "message": "Rất tiếc, chúng tôi không tìm thấy trang này",
+    "back": "Quay lại Trang chủ"
+  },
+  "pagination": {
+    "page": "Trang",
+    "previous": "Trước",
+    "next": "Sau",
+    "no_data": "Không có dữ liệu"
+  },
+  "news": {
+    "heading": "Tin tức",
+    "promotion": "Tin khuyến mãi",
+    "product_manual": "Cẩm nang sản phẩm",
+    "recruitment": "Tuyển dụng",
+    "dealer": "Đại lý chính hãng",
+    "project": "Công trình thực tế"
+  }
+}

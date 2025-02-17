@@ -1,0 +1,119 @@
+.vweb-scrollbar::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+.vweb-scrollbar::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+.vweb-scrollbar::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 5px;
+}
+.vweb-scrollbar::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+	font-size: 0;
+	line-height: 0;
+
+	position: absolute;
+	bottom: 50%;
+
+	width: 28px;
+	height: 28px;
+	padding: 0;
+	-webkit-transform: translate(0, 50%);
+	-ms-transform: translate(0, 50%);
+	transform: translate(0, 50%);
+
+	cursor: pointer;
+
+	color: white;
+	background: #141414;
+	border: none;
+	outline: none;
+
+	border-radius: none;
+	box-shadow: 0 4px 5px 0 #0a0a0a47;
+	z-index: 10;
+
+	display: flex!important;
+	align-items: center;
+	justify-content: center;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus,
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+	opacity: .8;
+}
+
+.slick-prev
+{
+	left: 0px;
+}
+
+.slick-next
+{
+	right: 0px;
+}
+.slick-disabled{
+	opacity: 0!important;
+}
+
+/* Prose - product iframe youtube - rows */
+.product-detail .prose iframe {
+	min-width: 300px;
+	aspect-ratio: 5 / 3;
+	margin-bottom: 14px;
+}
+@media screen and (min-width: 1024px) {
+	.product-detail .prose iframe {
+		float: left;
+		margin-right: 10px;
+		width: calc(100%/3 - 10px)
+	}
+}
+.product-detail .prose iframe:last-of-type + * {
+	clear: both;
+}
+.product-detail .prose:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* Footer */
+.footer::before{
+	position: absolute;
+	width: 1200px;
+	height: 1200px;
+	top: -280px;
+	left: 50%;
+	margin-left: -600px;
+	content: "";
+	background: transparent url('/images/trongdong.png') no-repeat center center;
+	background-size: 100% auto;
+	opacity: .3;
+	animation-name: rotate;
+	animation-duration: 60s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes rotate {
+	from {
+		transform: rotate(0)
+	}
+	to {
+		transform: rotate(360deg)
+	}
+}

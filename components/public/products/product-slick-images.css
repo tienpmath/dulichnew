@@ -1,0 +1,12 @@
+@charset 'UTF-8';
+
+.product-slick-images{
+	/*Slide*/
+	.slick-list{
+		padding: 0!important;
+	}
+	.slick-track {
+		width: 100% !important;
+		display: flex;
+	}
+}
