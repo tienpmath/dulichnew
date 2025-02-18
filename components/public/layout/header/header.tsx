@@ -21,19 +21,19 @@ export default function Header() {
       url: "/dich-vu",
       children: [
         {
-          url: "/thue-xe-du-lich",
+          url: "/dich-vu/thue-xe-du-lich",
           title: t("products.kitchen_sinks"),
         },
         {
-          url: "/dua-don-san-bay",
+          url: "/dich-vu/dua-don-san-bay",
           title: t("products.kitchen_faucets"),
         },
         {
-          url: "/tour-noi-thanh",
+          url: "/dich-vu/tour-noi-thanh",
           title: t("products.accessory"),
         },
         {
-          url: "/tour-ngoai-thanh",
+          url: "/dich-vu/tour-ngoai-thanh",
           title: t("products.others"),
         },
       ],
