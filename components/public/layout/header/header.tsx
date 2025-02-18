@@ -18,28 +18,28 @@ export default function Header() {
     },
     {
       title: t("menu.products"),
-      url: "/san-pham",
+      url: "/dich-vu",
       children: [
         {
-          url: "/quat-cong-nghiep",
+          url: "/thue-xe-du-lich",
           title: t("products.kitchen_sinks"),
         },
         {
-          url: "/voi-bep",
+          url: "/dua-don-san-bay",
           title: t("products.kitchen_faucets"),
         },
         {
-          url: "/phu-kien",
+          url: "/tour-noi-thanh",
           title: t("products.accessory"),
         },
         {
-          url: "/blog/may-loc-nuoc",
+          url: "/tour-ngoai-thanh",
           title: t("products.others"),
         },
       ],
     },
     {
-      title: "Photos",
+      title: "Hình ảnh",
       url: "/photos",
     },
     {
@@ -67,16 +67,16 @@ export default function Header() {
     },
     {
       title: t("menu.agency"),
-      url: "/dai-ly",
+      url: "/chinh-sach",
       dropdown_right: true,
       children: [
         {
           title: t("menu.agency_policy"),
-          url: "/blog/chinh-sach-dai-ly",
+          url: "/blog/chinh-sach-thue-xe",
         },
         {
           title: t("menu.agent_registration"),
-          url: "/blog/dang-ky-dai-ly",
+          url: "/blog/huong-dan-thue-xe",
         },
       ],
     },

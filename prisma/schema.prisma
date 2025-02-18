@@ -1,6 +1,7 @@
 // prisma/schema.prisma
 datasource db {
   provider = "mongodb"
+  
   url      = env("MONGODB_URI")
 }
 
