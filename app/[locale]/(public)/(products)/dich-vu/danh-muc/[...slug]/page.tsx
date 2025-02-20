@@ -136,7 +136,7 @@ export default async function Page({ params, searchParams }: Props) {
                 "rounded-md block mb-0 w-full overflow-hidden aspect-video relative"
               )}
             >
-              <BgYoutubeVideo videoId={item} muted={0} />
+              {/* <BgYoutubeVideo videoId={item} muted={0} /> */}
             </div>
             // <Link
             // 	key={index}
