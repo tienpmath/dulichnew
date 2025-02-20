@@ -18,6 +18,7 @@ import PostsCarousel2 from "@/components/public/posts/posts-carousel-2";
 import CloudImage from "@/components/CloudImage";
 import VideosGrid from "@/components/public/section/videos-grid";
 import FollowFanpage from "@/components/public/follow-fanpage/FollowFanpage";
+import BangGiaCom from "./bangia";
 
 export default function Home(props: {
   postsPromise: ReturnType<typeof getPosts>;
@@ -48,6 +49,14 @@ export default function Home(props: {
           <div className="w-40 h-0.5 bg-red-700 mx-auto mt-2"></div>
         </h2>
         <ProductCarousel data={products || []} />
+      </div>
+
+      <div className={"container"}>
+        <h2 className="text-center ~text-2xl/3xl text-cyan-900 uppercase font-bold m-0 mt-4 ~mb-6/10">
+          Bảng giá thuê xe ô tô Đà Lạt 4 5 7 16 29 chỗ
+          <div className="w-40 h-0.5 bg-red-700 mx-auto mt-2"></div>
+        </h2>
+        <BangGiaCom />
       </div>
 
       <GallerySlides data={setting} />
