@@ -10,25 +10,25 @@ export default function ProductFeatures(props: { data: TSetting | null }) {
   let data = [
     {
       img: "",
-      path: "/xe-dua-don-say-bay-da-lat",
+      path: "/san-pham/bang-gia-thue-xe-16-cho-da-lat-tron-goi-moi-nhat-nam-2025",
       title: t("kitchen_sinks"),
       count: Math.round(Math.random() * 90) + 10,
     },
     {
       img: "",
-      path: "/xe-da-lat-nha-trang",
+      path: "/san-pham/dich-vu-cho-thue-xe-o-to-du-lich-da-lat-don-san-bay",
       title: t("kitchen_faucets"),
       count: Math.round(Math.random() * 90) + 10,
     },
     {
       img: "",
-      path: "/thue-xe-du-lich-da-lat",
+      path: "/san-pham/thue-xe-4-cho-da-lat",
       title: t("accessory"),
       count: Math.round(Math.random() * 90) + 10,
     },
     {
       img: "",
-      path: "/tour-du-lich-da-la",
+      path: "/blog/thue-xe-da-lat-4-cho-7-cho-16-cho-29-cho-chay-em-dich-vu-tan-tam",
       title: t("others"),
       count: Math.round(Math.random() * 90) + 10,
     },
@@ -70,12 +70,9 @@ export default function ProductFeatures(props: { data: TSetting | null }) {
                   "border-2 px-2 py-2 flex flex-col lg:flex-row gap-3 items-center justify-between w-full"
                 }
               >
-                <p className="uppercase text-sm font-bold">{d.title}</p>
                 <div className={"w-full lg:w-fit flex-shrink-0 sm:block"}>
                   <Link href={d.path} passHref>
-                    <button className="w-full button button--mimas text-xs uppercase px-5 py-2">
-                      <span className={""}>{t("detail")}</span>
-                    </button>
+                    <p className="uppercase text-sm font-bold">{d.title}</p>
                   </Link>
                 </div>
               </div>
